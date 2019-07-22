@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+    /*Cambio de fuente de la letra*/
+  -webkit-font-smoothing: antialiased; /* Suavizado de fuente*/
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;   /*Cambio de fuente*/
+}
+
+.list-heroes .media{
+  border-bottom : 1px solid #e1e1e1;   /*Borde inferior*/
+  padding-bottom : 3rem;                  /*Espaciado inferior*/
+}
+
+.list-heroes .media:last-of-type{
+  border-bottom:0;
+}
+.list-heroes .media-body p{
+  margin:0;
+}
+
+.list-heroes .media-body button {
+  margin-top: 1rem!important;
+}
+
+.list-heroes .media-body span{
+  font-weight: bold;            /*Fuente en negrilla*/
+}
+.Contextos{
+  margin: 5% 20%;
+}
+.titulo{
+  text-align: center
+}
+
+.imagen{
+  align-self: center;
+  width: 50%;
+  height: 50%;
+}
+
